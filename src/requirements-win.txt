@@ -1,0 +1,11 @@
+gevent==1.5.0
+gevent-websocket==0.10.1
+numpy==1.18.4
+colorspacious==1.1.2
+scipy==1.4.1
+matplotlib==3.2.2
+PyQt5==5.15.0
+openpyxl==3.0.3
+pyinstaller==3.6
+pywin32==227
+keyring==19.2.0 # builds with 19.3.0 and 20.0.0 fail with py2app/pyinstaller

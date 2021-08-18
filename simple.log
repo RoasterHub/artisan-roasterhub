@@ -1,0 +1,116 @@
+2020-09-30, 20:56:27
+--------------------------------------------------------------------------------
+<class 'NameError'>: 
+name 'tab5Layout' is not defined  File "/home/skater/Documents/projects/roasterhub/src/artisanlib/main.py", line 31407, in editgraph
+    self.editgraphdialog = editGraphDlg(self, self)
+  File "/home/skater/Documents/projects/roasterhub/src/artisanlib/roast_properties.py", line 1643, in __init__
+    C5Widget.setLayout(tab5Layout)
+
+--------------------------------------------------------------------------------
+/home/skater/Documents/projects/roasterhub/src/artisanlib/main.py::editgraph:31407
+	                self = <artisanlib.main.ApplicationWindow object at 0x7f258e16e1f0>
+	                   _ = False
+/home/skater/Documents/projects/roasterhub/src/artisanlib/roast_properties.py::__init__:1643
+	              parent = <artisanlib.main.ApplicationWindow object at 0x7f258e16e1f0>
+	                  aw = <artisanlib.main.ApplicationWindow object at 0x7f258e16e1f0>
+	           regextime = PyQt5.QtCore.QRegExp('^-?[0-9]?[0-9]?[0-9]:[0-5][0-9]$')
+	         chargelabel = <PyQt5.QtWidgets.QLabel object at 0x7f255bdd34c0>
+	            drop_str = 
+	            drylabel = <PyQt5.QtWidgets.QLabel object at 0x7f255bdd3c10>
+	                  t2 = 0
+	         Cstartlabel = <PyQt5.QtWidgets.QLabel object at 0x7f2560153b80>
+	                  t3 = 0
+	           Cendlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25601535e0>
+	                  t4 = 0
+	        CCstartlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489c7160>
+	                  t5 = 0
+	          CCendlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489c7310>
+	                  t6 = 0
+	           droplabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489c74c0>
+	                  t7 = 0
+	           coollabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489c7700>
+	                  t8 = 0
+	          titlelabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489d1040>
+	     backgroundcolor =  background-color: #f8f8f8;
+	               color =  color: #0c6aa6;
+	          datelabel1 = <PyQt5.QtWidgets.QLabel object at 0x7f25489d1280>
+	                date = Wed Sep 30 2020, 20:56
+	            dateedit = <PyQt5.QtWidgets.QLineEdit object at 0x7f25489d1310>
+	          batchlabel = <artisanlib.widgets.ClickableQLabel object at 0x7f25489d13a0>
+	               batch = 
+	            roastpos = 
+	          beanslabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489d1550>
+	         weightlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489d18b0>
+	         green_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489d1940>
+	       roasted_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489d19d0>
+	                 inw = 0
+	                outw = 0
+	         volumelabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489d1e50>
+	                 inv = 0
+	                outv = 0
+	  bean_density_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3280>
+	  density_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3310>
+	    volumeCalcButton = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f3700>
+	     bean_size_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f38b0>
+	 bean_size_sep_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3a60>
+	bean_size_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3c10>
+	         color_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3ca0>
+	   whole_color_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3d30>
+	  ground_color_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f3ee0>
+	   greens_temp_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5160>
+	greens_temp_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f51f0>
+	         greens_temp = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f53a0>
+	      moisture_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5430>
+	moisture_greens_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f54c0>
+	moisture_roasted_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5670>
+	moisture_roasted_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5700>
+	    moisture_roasted = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f5940>
+	        ambientlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f59d0>
+	   ambientunitslabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5a60>
+	ambient_humidity_unit_label = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5af0>
+	  pressureunitslabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f5dc0>
+	             ambient = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f5f70>
+	    roastertypelabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f61f0>
+	       operatorlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f6280>
+	   organizationlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f6310>
+	      drumspeedlabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f63a0>
+	       roastinglabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f6430>
+	        cuppinglabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f6550>
+	            inButton = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f6ca0>
+	      inButtonLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f6d30>
+	           outButton = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f6dc0>
+	     outButtonLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f6e50>
+	     scanWholeButton = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f6ee0>
+	    scanGroundButton = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f6f70>
+	  ambientSourceLabel = <PyQt5.QtWidgets.QLabel object at 0x7f25489f80d0>
+	   updateAmbientTemp = <PyQt5.QtWidgets.QPushButton object at 0x7f25489f8160>
+	          timeLayout = <PyQt5.QtWidgets.QGridLayout object at 0x7f25489f81f0>
+	          textLayout = <PyQt5.QtWidgets.QGridLayout object at 0x7f25489f8280>
+	           datebatch = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8310>
+	           titleLine = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f83a0>
+	       template_font = <PyQt5.QtGui.QFont object at 0x7f256004b890>
+	textLayoutPlusOffset = 0
+	     roasteroperator = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f84c0>
+	      beanSizeLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8550>
+	            propGrid = <PyQt5.QtWidgets.QGridLayout object at 0x7f25489f85e0>
+	         ambientGrid = <PyQt5.QtWidgets.QGridLayout object at 0x7f25489f8670>
+	    roastFlagsLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8700>
+	      roastFlagsGrid = <PyQt5.QtWidgets.QGridLayout object at 0x7f25489f8790>
+	     anotationLayout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f8820>
+	            okLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f88b0>
+	       timeLayoutBox = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8940>
+	          mainLayout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f89d0>
+	   eventbuttonLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8a60>
+	    databuttonLayout = <PyQt5.QtWidgets.QHBoxLayout object at 0x7f25489f8af0>
+	          tab1Layout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f8c10>
+	          tab2Layout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f8ca0>
+	          tab3Layout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f8d30>
+	          tab4Layout = <PyQt5.QtWidgets.QVBoxLayout object at 0x7f25489f8dc0>
+	            C1Widget = <PyQt5.QtWidgets.QWidget object at 0x7f25489f8ee0>
+	            C2Widget = <PyQt5.QtWidgets.QWidget object at 0x7f25489f8f70>
+	            C3Widget = <PyQt5.QtWidgets.QWidget object at 0x7f25488d8040>
+	            C4Widget = <PyQt5.QtWidgets.QWidget object at 0x7f25488d80d0>
+	            C5Widget = <PyQt5.QtWidgets.QWidget object at 0x7f25488d8160>
+	                self = <artisanlib.roast_properties.editGraphDlg object at 0x7f2560041040>
+	           __class__ = <class 'artisanlib.roast_properties.editGraphDlg'>
+Version: 2.4.1, revision: 0

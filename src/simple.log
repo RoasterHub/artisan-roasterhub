@@ -1,0 +1,15 @@
+2020-06-26, 16:32:54
+--------------------------------------------------------------------------------
+<class 'NameError'>: 
+name 'btstr' is not defined  File "/home/skater/Documents/projects/roasterhub/src/artisanlib/main.py", line 3372, in updateLCDtime
+    if btstr is not None:
+
+--------------------------------------------------------------------------------
+/home/skater/Documents/projects/roasterhub/src/artisanlib/main.py::updateLCDtime:3393
+	                self = <artisanlib.main.tgraphcanvas object at 0x7f326433bc10>
+	                  tx = 1.5267188409998198
+	         nextreading = 473.2811590001802
+	                  ts = 1.5267188409998198
+	             timestr = 00:02
+	     roasterhub_data = {'data': {}}
+Version: 2.4.1, revision: 0
